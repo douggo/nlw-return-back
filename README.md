@@ -6,54 +6,48 @@ Everything we used/created during the NLW Return event.
 
 Commands used to create initiate the project, building an API, database, ...
 
-### To initiate project
+- To initiate project
+  - `npm init -y`
+  - `npm i typescript @types/node ts-node-dev -D`
+  - `npx tsc --init`
+  - `npx tsc`
 
-`npm init -y`
-`npm i typescript @types/node ts-node-dev -D`
-`npx tsc --init`
-`npx tsc`
+- To create API using Express
+  - `npm i express`
+  - `npm i -D @types/express`
 
-### To create API using Express
+- To create a database using Prisma and SQLite and show tables
+  - `npm i prisma -D`
+  - `npm i @prisma/client`
+  - `npm prisma init`
+  - `npx prisma migrate dev`
+  - `npx prisma studio`
 
-`npm i express`
-`npm i -D @types/express`
+- Send e-mails
+  - `npm install nodemailer`
+  - `npm install @types/nodemailer -D`
 
-### To create a database using Prisma and SQLite and show tables
+- Unitary tests with Jest
+  - `npm install jest -D`
+  - `npx jest --init`
+  - `npm install ts-node -D`
+  - `npm i -D jest @swc/jest`
+  - `npm i @types/jest -D`
+  - `npm run test`
 
-`npm i prisma -D`
-`npm i @prisma/client`
-`npm prisma init`
-`npx prisma migrate dev`
-`npx prisma studio`
-
-### Send e-mails
-
-`npm install nodemailer`
-`npm install @types/nodemailer -D`
-
-### Unitary tests with Jest
-
-`npm install jest -D`
-`npx jest --init`
-`npm install ts-node -D`
-`npm i -D jest @swc/jest`
-`npm i @types/jest -D`
-`npm run test`
-
-## Something
-
-`npm i cors`
-`npm i @types/cors`
+- To improve security, telling which address should be able to communicate with the server
+  - `npm i cors`
+  - `npm i @types/cors`
 
 ## HTTP Methods
 
 We have 5 types of HTTP methods.
 
-* 1. GET (used to get data from an Entity)
-* 2. POST (used to registrar data from an Entity)
-* 3. PUT (used to update data from an Entity)
-* 4. PATCH (used to update one particular information from an Entity)
-* 5. DELETE (used to delete data from an Entity)
+- 1. GET (used to get data from an Entity)
+- 2. POST (used to registrar data from an Entity)
+- 3. PUT (used to update data from an Entity)
+- 4. PATCH (used to update one particular information from an Entity)
+- 5. DELETE (used to delete data from an Entity)
 
 ## S.O.L.I.D
 
