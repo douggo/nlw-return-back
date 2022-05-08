@@ -51,6 +51,10 @@ Commands used to create initiate the project, building an API, database, ...
   - `git push heroku main`
   - `heroku run npx prisma migrate deploy`
 
+- To start/stop a Heroku app
+  - `heroku ps:scale web=1`
+  - `heroku ps:scale web=0`
+
 ## HTTP Methods
 
 We have 5 types of HTTP methods.
