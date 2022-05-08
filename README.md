@@ -41,6 +41,11 @@ Commands used to create initiate the project, building an API, database, ...
   - `npm i cors`
   - `npm i @types/cors`
 
+- To deploy the app using Heroku GIT:
+  - `curl https://cli-assets.heroku.com/install.sh | sh`
+  - `heroku --version`
+  - `heroku login`
+
 ## HTTP Methods
 
 We have 5 types of HTTP methods.
