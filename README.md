@@ -10,6 +10,8 @@ Commands used to create initiate the project, building an API, database, ...
   - `npm init -y`
   - `npm i typescript @types/node ts-node-dev -D`
   - `npx tsc --init`
+  
+- To create the `dist` folder with the native js code instead of typescript
   - `npx tsc`
 
 - To create API using Express
