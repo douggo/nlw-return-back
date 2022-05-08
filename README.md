@@ -35,7 +35,7 @@ Commands used to create initiate the project, building an API, database, ...
   - `npm install ts-node -D`
   - `npm i -D jest @swc/jest`
   - `npm i @types/jest -D`
-  - `npm run test`
+  - `npm run test `
 
 - To improve security, telling which address should be able to communicate with the server
   - `npm i cors`
