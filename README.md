@@ -35,7 +35,7 @@ Commands used to create initiate the project, building an API, database, ...
   - `npm install ts-node -D`
   - `npm i -D jest @swc/jest`
   - `npm i @types/jest -D`
-  - `npm run test `
+  - `npm run test`
 
 - To improve security, telling which address should be able to communicate with the server
   - `npm i cors`
@@ -45,6 +45,11 @@ Commands used to create initiate the project, building an API, database, ...
   - `curl https://cli-assets.heroku.com/install.sh | sh`
   - `heroku --version`
   - `heroku login`
+  - `heroku buildpacks:add heroku/nodejs`
+  - `heroku config:set PROJECT_PATH='./'`
+  - `heroku git:remote -a nlw-return-back`
+  - `git push heroku main`
+  - `heroku run npx prisma migrate deploy`
 
 ## HTTP Methods
 
